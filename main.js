@@ -1,21 +1,14 @@
 const{
-    name,
     menu,
-    operations
+    operations,
+    start
     } = require("./src/methods.js");
 
 const{
     log,
-    tab
+    tab,
+    clearScreen
 } = require("./src/util.js");
 
-const{
-    welcomeScreen 
-} = require("./src/welcome.js");
-
-const start = function(){
-welcomeScreen();
-name();
-const option = menu();
-}
 start();
+
